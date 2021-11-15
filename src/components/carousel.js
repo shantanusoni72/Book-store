@@ -1,32 +1,32 @@
 import React from 'react'
-import s1 from '/home/shaan/ReactJS/Amazon-Clone/amazon-clone/src/img/slide_1.jpg'
+import slide_1 from '../img/slide_1.jpg'
+import slide_2 from '../img/slide_2.jpg'
+import slide_3 from '../img/slide_3.jpg'
 
 export default function carousel() {
-    return (
-        <>
-        <section id="promo">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div id="promo-carousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                    <img src={s1} alt="Slide 1"/>
-                  </div>
-                </div>
-                <a class="left carousel-control" href="#promo-carousel" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#promo-carousel" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>
+  return (
+    <>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src={slide_1} class="d-block w-100" alt="s" />
+          </div>
+          <div class="carousel-item">
+            <img src={slide_2} class="d-block w-100" alt="s" />
+          </div>
+          <div class="carousel-item">
+            <img src={slide_3} class="d-block w-100" alt="s" />
           </div>
         </div>
-      </section>
-        </>
-    )
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </>
+  )
 }

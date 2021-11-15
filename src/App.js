@@ -8,6 +8,7 @@ import Registor from './components/registor';
 import { BrowserRouter as Router, Link, Route, Redirect } from "react-router-dom";
 import Container from './components/card_external';
 import About from './components/about'
+import Contact from './components/contact';
 
 
 function App() {
@@ -32,6 +33,10 @@ function App() {
 
         <Route path="/shop/book/selfhelp" render={()=>
         <>
+        </>}></Route>
+
+        <Route path="/contactus" render={()=>
+        <> <Header value={true} /> < Contact/>
         </>}></Route>
 
         <Route path="/shop/book/doc" render={()=>
