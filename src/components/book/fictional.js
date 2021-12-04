@@ -23,7 +23,7 @@ export default function fictional() {
                                 {books.map(({ id, title }) => (
                                     <h5 class="card-title">{title}</h5>
                                 ))}
-                                <p class="card-text">By Veronica Roth</p>
+                                <p class="card-text">By David Wallace Croft</p>
                                 <a href="https://programmer-books.com/wp-content/uploads/2018/05/Advanced-java.pdf" class="btn btn-primary">Read</a>
                             </div>
                         </div>
@@ -31,9 +31,9 @@ export default function fictional() {
                     <div class="col">
                         <div class="card" style={{ height: 270, width: 215 }}>
                             <img src={p2} class="card-img-top" alt="s" style={{ height: 270, width: 215 }} />
-                            <div class="card-body">
-                                <h5 class="card-title">Science Fiction Fantasy</h5>
-                                <p class="card-text">By Veronica Roth</p>
+                            <div class="card-body"><br />
+                                <h5 class="card-title">Head First Python</h5>
+                                <p class="card-text">By O'Relly Publication</p>
                                 <a href="#" class="btn btn-primary">Read</a>
                             </div>
                         </div>
@@ -42,8 +42,8 @@ export default function fictional() {
                         <div class="card" style={{ height: 270, width: 215 }}>
                             <img src={p3} class="card-img-top" alt="s" style={{ height: 270, width: 215 }} />
                             <div class="card-body">
-                                <h5 class="card-title">The Sword of the Jupiter</h5>
-                                <p class="card-text">By Travis Starnes</p>
+                                <h5 class="card-title">Let Us C</h5>
+                                <p class="card-text">By Yashwant Kanekar</p>
                                 <a href="#" class="btn btn-primary">Read</a>
                             </div>
                         </div>
@@ -52,8 +52,8 @@ export default function fictional() {
                         <div class="card" style={{ height: 270, width: 215 }}>
                             <img src={p4} class="card-img-top" alt="s" style={{ height: 270, width: 215 }} />
                             <div class="card-body">
-                                <h5 class="card-title">Science Fiction Fantasy</h5>
-                                <p class="card-text">By Veronica Roth</p>
+                                <h5 class="card-title">Computer Networks</h5>
+                                <p class="card-text">By Andrew S. Tanerbium</p>
                                 <a href="#" class="btn btn-primary">Read</a>
                             </div>
                         </div>
@@ -66,8 +66,8 @@ export default function fictional() {
                         <div class="card" style={{ height: 270, width: 215 }}>
                             <img src={p5} class="card-img-top" alt="s" style={{ height: 270, width: 215 }} />
                             <div class="card-body">
-                                <h5 class="card-title">Science Fiction Fantasy</h5>
-                                <p class="card-text">By Veronica Roth</p>
+                                <h5 class="card-title">Database Management System</h5>
+                                <p class="card-text"></p>
                                 <a href="#" class="btn btn-primary">Read</a>
                             </div>
                         </div>
@@ -76,8 +76,8 @@ export default function fictional() {
                         <div class="card" style={{ height: 270, width: 215 }}>
                             <img src={p6} class="card-img-top" alt="s" style={{ height: 270, width: 215 }} />
                             <div class="card-body">
-                                <h5 class="card-title">Science Fiction Fantasy</h5>
-                                <p class="card-text">By Veronica Roth</p>
+                                <h5 class="card-title">Data Structure</h5>
+                                <p class="card-text">By Seymour Lipschutz</p>
                                 <a href="#" class="btn btn-primary">Read</a>
                             </div>
                         </div>
@@ -85,9 +85,9 @@ export default function fictional() {
                     <div class="col">
                         <div class="card" style={{ height: 270, width: 215 }}>
                             <img src={p7} class="card-img-top" alt="s" style={{ height: 270, width: 215 }} />
-                            <div class="card-body">
-                                <h5 class="card-title">Science Fiction Fantasy</h5>
-                                <p class="card-text">By Veronica Roth</p>
+                            <div class="card-body"><br />
+                                <h5 class="card-title">Operating System</h5>
+                                <p class="card-text"></p>
                                 <a href="#" class="btn btn-primary">Read</a>
                             </div>
                         </div>
@@ -96,8 +96,8 @@ export default function fictional() {
                         <div class="card" sstyle={{ height: 270, width: 215 }}>
                             <img src={p8} class="card-img-top" alt="s" style={{ height: 270, width: 215 }} />
                             <div class="card-body">
-                                <h5 class="card-title">Science Fiction Fantasy</h5>
-                                <p class="card-text">By Veronica Roth</p>
+                                <h5 class="card-title">Higher Engineering Mathematics</h5>
+                                <p class="card-text">By Dr. BS Grewal</p>
                                 <a href="#" class="btn btn-primary">Read</a>
                             </div>
                         </div>

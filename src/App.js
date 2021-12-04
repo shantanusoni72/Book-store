@@ -14,7 +14,7 @@ import Contact from './components/contact';
 function App() {
   return (
     <>
-      <Router>
+    <Router>
         <Route path="/" render={()=>
         <><Header />
         </>}></Route>
